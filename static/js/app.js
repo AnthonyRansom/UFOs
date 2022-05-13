@@ -68,13 +68,13 @@ function filterTable() {
 // 2. Attach an event to listen for changes to each filter
 //document.getElementById("state").addEventListener('keypress', filterTable())
 //removed function call brackets, event did not call function with the brackets
-document.getElementById("datetime").addEventListener('input', updateFilters);
-document.getElementById("city").addEventListener('input', updateFilters);
-document.getElementById("state").addEventListener('input', updateFilters);
-document.getElementById("country").addEventListener('input', updateFilters);
-document.getElementById("shape").addEventListener('input', updateFilters);
+//document.getElementById("datetime").addEventListener('input', updateFilters);
+//document.getElementById("city").addEventListener('input', updateFilters);
+//document.getElementById("state").addEventListener('input', updateFilters);
+//document.getElementById("country").addEventListener('input', updateFilters);
+//document.getElementById("shape").addEventListener('input', updateFilters);
 // better method to use d3 such as below
-//d3.selectAll('input').on('keyup paste',updateFilters);
+d3.selectAll('input').on('keyup paste',updateFilters);
 
 
 // Build the table when the page loads
