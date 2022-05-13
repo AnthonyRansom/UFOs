@@ -27,7 +27,7 @@ User can make use of the following search criteria to filter the table:
 	![image of state input](/Resources/state_search.PNG)
  - Country: Filter the table by the country where the sighting occured using the shortname of the country
 	![image of country input](/Resources/country_search.PNG)
- - Shape: Filte the table by the shape of the UFO
+ - Shape: Filte the table by the shape of the UFO  
 	![image of shape input](/Resources/shape_search.PNG)
 
 The table will automatically filter as users type into the search input boxes and will look for an exact match.

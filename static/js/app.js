@@ -73,6 +73,7 @@ function filterTable() {
 //document.getElementById("state").addEventListener('input', updateFilters);
 //document.getElementById("country").addEventListener('input', updateFilters);
 //document.getElementById("shape").addEventListener('input', updateFilters);
+
 // better method to use d3 such as below
 d3.selectAll('input').on('keyup paste',updateFilters);
 
